@@ -130,7 +130,7 @@ jobs:
             exit 1
       - slack/notify:
           event: fall
-          templete: basic-fail
+          templete: basic_fail_1
 
   # deploy-infrastructure:
   #   docker:
