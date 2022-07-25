@@ -129,7 +129,7 @@ jobs:
             npm audit --audit-level=critical
             exit 1
       - slack/notify:
-          event: fall
+          event: fail
           templete: basic_fail_1
 
   # deploy-infrastructure:
