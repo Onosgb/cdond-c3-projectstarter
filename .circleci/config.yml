@@ -130,6 +130,7 @@ jobs:
             exit 1
       - slack/notify:
           event: fail
+          mentions: "@Godbless Onoriode"
           templete: basic_fail_1
 
   # deploy-infrastructure:
